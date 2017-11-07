@@ -2,10 +2,13 @@
 
 ##Topics
 #### Basics 
-- [ ] Basic Types
-- [ ] Packages
-- [ ] Control Flow
-- [ ] Returns and Jumps
+- [x] Basic Types
+    - [x] Numbers
+    - [x] Strings
+    - [x] Characters
+    - [x] Arrays
+- [x] Control Flow
+- [x] Returns and Jumps
 
 #### Classes and Objects
 - [ ] Classes and Inheritance
