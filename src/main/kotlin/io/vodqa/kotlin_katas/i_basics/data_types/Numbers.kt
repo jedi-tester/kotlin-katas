@@ -1,4 +1,4 @@
-package io.vodqa.kotlin_katas.i_basics
+package io.vodqa.kotlin_katas.i_basics.data_types
 
 import sun.plugin2.os.windows.FLASHWINFO
 

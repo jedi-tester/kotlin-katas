@@ -1,4 +1,4 @@
-package io.vodqa.kotlin_katas.i_basics
+package io.vodqa.kotlin_katas.i_basics.data_types
 
 /**
  * @author sergei.prodanov
@@ -38,7 +38,7 @@ fun getStringCharAtIndex(string: String, i: Int): Char {
 
 // String Templates
 val i = 10
-val stringWithTemplate = "Int i = $i"
+val stringWithTemplate = "Int i = ${i}"
 
 val str = "string"
 val stringWithArbitraryExpressionTemplate = "String str length is ${str.length}"
@@ -48,5 +48,5 @@ val rawStringWithArbitraryExpressionTemplate = """
 """
 
 val rawStringWithDollarSign = """
-    ${'$'}$i
+    ${'$'}${i}
 """

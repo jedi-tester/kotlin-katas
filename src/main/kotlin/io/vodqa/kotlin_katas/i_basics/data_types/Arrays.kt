@@ -1,4 +1,4 @@
-package io.vodqa.kotlin_katas.i_basics
+package io.vodqa.kotlin_katas.i_basics.data_types
 
 /**
  * @author sergei.prodanov

@@ -1,5 +1,6 @@
 package io.vodqa.kotlin_katas.i_basics
 
+import io.vodqa.kotlin_katas.i_basics.data_types.*
 import org.hamcrest.CoreMatchers.isA
 import org.hamcrest.core.IsEqual.equalTo
 import org.junit.Assert.assertThat
