@@ -1,6 +1,6 @@
-#Kotlin Katas
+# Kotlin Katas
 
-##Topics
+## Topics
 #### Basics 
 - [x] [Basic Types](https://kotlinlang.org/docs/reference/basic-types.html)
     - [x] [Numbers](https://kotlinlang.org/docs/reference/basic-types.html#numbers)
