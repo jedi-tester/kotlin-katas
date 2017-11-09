@@ -1,7 +1,6 @@
 # Kotlin Katas
 
-## Topics
-#### Basics 
+### Basics 
 - [x] [Basic Types](https://kotlinlang.org/docs/reference/basic-types.html)
     - [x] [Numbers](https://kotlinlang.org/docs/reference/basic-types.html#numbers)
     - [x] [Strings](https://kotlinlang.org/docs/reference/basic-types.html#strings)
@@ -10,7 +9,7 @@
 - [x] [Control Flow](https://kotlinlang.org/docs/reference/control-flow.html)
 - [x] [Returns and Jumps](https://kotlinlang.org/docs/reference/returns.html)
 
-#### Classes and Objects
+### Classes and Objects
 - [ ] [Classes and Inheritance](https://kotlinlang.org/docs/reference/classes.html#classes-and-inheritance)
     - [ ] [Classes](https://kotlinlang.org/docs/reference/classes.html#classes)
     - [ ] [Inheritance](https://kotlinlang.org/docs/reference/classes.html#inheritance)
@@ -29,13 +28,13 @@
 - [ ] [Delegation](https://kotlinlang.org/docs/reference/delegation.html)
 - [ ] [Delegated properties](https://kotlinlang.org/docs/reference/delegated-properties.html)
 
-#### Functions and Lambdas
+### Functions and Lambdas
 - [ ] [Functions](https://kotlinlang.org/docs/reference/functions.html)
 - [ ] [Higher-Order Functions and Lambdas](https://kotlinlang.org/docs/reference/lambdas.html)
 - [ ] [Inline Functions](https://kotlinlang.org/docs/reference/inline-functions.html)
 - [ ] [Coroutines](https://kotlinlang.org/docs/reference/coroutines.html)
 
-#### Misc
+### Misc
 - [ ] [Destructuring Declarations](https://kotlinlang.org/docs/reference/multi-declarations.html)
 - [ ] [Ranges](https://kotlinlang.org/docs/reference/ranges.html)
 - [ ] [Type Checks and Casts: 'is' and 'as'](https://kotlinlang.org/docs/reference/typecasts.html)
@@ -49,7 +48,7 @@
 - [ ] [Type-Safe Builders](https://kotlinlang.org/docs/reference/type-safe-builders.html)
 - [ ] [Type Aliases](https://kotlinlang.org/docs/reference/type-aliases.html)
 
-#### [Collections](https://kotlinlang.org/docs/reference/collections.html)
+### [Collections](https://kotlinlang.org/docs/reference/collections.html)
 - [ ] List
 - [ ] Set
 - [ ] Map
