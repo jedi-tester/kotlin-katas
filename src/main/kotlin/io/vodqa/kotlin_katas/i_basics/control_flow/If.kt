@@ -39,3 +39,34 @@ fun getMax(a: Double, b: Double): Double {
 fun getMax(a: Float, b: Float): Float {
     return if (a > b) a else b
 }
+
+class IfExamples() {
+
+    fun ifExample(a: Int, b: Int) {
+        val result = if (a < b) println("$a is less than $b") else println("$a is grater than $b")
+    }
+
+    fun ifExample2(string: String) {
+        val result = if (string.contains("test")) {
+            println("this is a test string")
+            string
+        } else {
+            println("this is not a test string")
+            null
+        }
+
+        println(result)
+    }
+
+    fun ifExample3(a: Int, b: Int) {
+        var max = a
+        if (a < b) max = b
+        println(max)
+    }
+
+    //note we can make 'max' immutable because we are not changing the value as compared to 'ifExample3(a, b)'
+    fun ifExample4(a: Int, b: Int) {
+        val max = if (a < b) b else a
+        println(max)
+    }
+}

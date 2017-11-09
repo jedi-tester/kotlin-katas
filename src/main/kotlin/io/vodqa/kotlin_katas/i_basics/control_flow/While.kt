@@ -20,5 +20,3 @@ fun doWhileExp(i: Int) {
         a++
     } while (a < 100)
 }
-
-// TODO: 11/7/2017 add more while examples (see Fundamental-Kotlin project for more examples)

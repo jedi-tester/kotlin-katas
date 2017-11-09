@@ -4,9 +4,6 @@ package io.vodqa.kotlin_katas.i_basics.control_flow
  * @author sergei.prodanov
  */
 
-fun main(args: Array<String>) {
-}
-
 fun returnBooleanWhenIntMatches(i: Int): Boolean? {
     return when(i) {
         0 -> true
@@ -17,8 +14,7 @@ fun returnBooleanWhenIntMatches(i: Int): Boolean? {
 
 fun returnMatchingInt(i: Int): Int? {
     return when(i) {
-        0 -> 0
-        1 -> 1
+        0, 1 -> i
         else -> null
     }
 }
@@ -54,4 +50,69 @@ fun whenAsIfElseIfChain(x: Int) {
     }
 }
 
-// TODO: 11/7/2017 add more when examples (See Fundamental-Kotlin for more examples)
+class WhenExamples() {
+
+    fun selectUserType(userType: Int) {
+        val result = when (userType) {
+            0 -> "Administrator"
+            2 -> "User"
+            else -> "Invalid"
+        }
+
+        println(result)
+    }
+
+    fun selectAdministratorSubtype(userType: Int) {
+        when (userType) {
+            determineAdminSubtype(userType) -> {
+                println("Subtype is OK.")
+                selectAdministratorType(userType)
+            }
+            else -> println("Subtype NOT OK")
+        }
+    }
+
+    private fun determineAdminSubtype(userType: Int): Int {
+        return if (userType in 0..1) userType else -1
+    }
+
+    private fun selectAdministratorType(userType: Int) {
+        val result = when (userType) {
+            0 -> "Administrator"
+            1 -> "Moderator"
+            else -> "Invalid"
+        }
+        println("Administrator type is $result")
+    }
+
+    fun determineUserPermissions(userType: Int) {
+        val result = when (userType) {
+            0, 1 -> "rwx"
+            2 -> "r--"
+            else -> "---"
+        }
+        println("Permission $result granted")
+    }
+
+    fun shotResult(x: Int) {
+        val outer = 0
+        val inner = 100
+
+        val result = when (x) {
+            in outer..inner -> "hit inside target"
+            in (outer/2)..(inner/2) -> "hit close to middle"
+            50 -> "hit bulls eye"
+            else -> "Missed"
+        }
+
+        println("You have $result")
+    }
+
+    fun checkForValType(a: Any) = checkForValueType(a)
+
+    fun replaceElseIfElseChain(x: Int) = whenAsIfElseIfChain(x)
+}
+
+fun main(args: Array<String>) {
+
+}

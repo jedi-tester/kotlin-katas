@@ -24,4 +24,15 @@ fun breakAtOuterLoopLabel() {
     }
 }
 
-// TODO: 11/7/2017 add examples for continue jump expressions
+class BreakAndContinueLabelsExamples() {
+
+    fun breakOuterLoop() {
+        outer@ for (o in 0..100) {
+            inner@ for (i in 0..100) {
+                println("[outer == $o] [inner == $i]")
+//                if (i == 10) break // this will break the @inner loop
+                if (i == 10) break@outer //this will break the outer loop
+            }
+        }
+    }
+}
